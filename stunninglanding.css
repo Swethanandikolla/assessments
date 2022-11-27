@@ -48,13 +48,15 @@ button{
     display: flex;
     border: 1px solid gray;
  width: 400px;
-    background-color: lightblue;
+    background-color:gray;
+    border-radius: 10px;
 }
 #image1{
     width: 30px;
 }
 #image2{
     width: 30px;
+    margin: 10px;
 }
 .items{
     padding: 5px;
@@ -63,19 +65,22 @@ button{
     display: flex;
     border: 1px solid gray; 
  width: 400px;
-    background-color: lightblue;
+    background-color: gray;
+    border-radius: 10px;
 }
 #box3{
     display: flex;
     border: 1px solid gray;
  width: 400px;
-    background-color: lightblue;
+    background-color: gray;
+    border-radius: 10px;
 }
 #box4{
     display: flex;
     border: 1px solid gray; 
  width: 400px;
-    background-color: lightblue;
+    background-color: gray;
+    border-radius: 10px;
 }
 #box1:hover{
     background-color: white;
@@ -116,4 +121,31 @@ h1{
 p1{
     font-size: 20px;
 }
-
+.pink{
+    width: 20px;
+    height: 10px;
+    background-color: pink;
+    border-radius: 5px;
+    margin: 30px;
+}
+.red{
+    width: 20px;
+    height: 10px;
+    background-color: red;
+    border-radius: 5px;
+    margin: 30px;
+}
+.green{
+    width: 20px;
+    height: 10px;
+    background-color: green;
+    border-radius: 5px;
+    margin: 30px;
+}
+.yellow{
+    width: 20px;
+    height: 10px;
+    background-color:yellow;
+    border-radius: 5px;
+    margin: 30px;
+}
